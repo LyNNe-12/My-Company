@@ -119,7 +119,7 @@ body {
 	margin-left: 3px;
 }
 .about__li {
-	background: url(../img/icons/list.png) 0 5px no-repeat;
+	background: url(/list.png) 0 5px no-repeat;
 	padding-left: 25px;
 	font-size: 18px;
 	line-height: 25px;
