@@ -9,6 +9,7 @@ body {
 .intro {
 	padding: 5px 15px;
 	background-color: #111111;
+	height: 75vh;
 }
 .header {
 	margin-top: 60px;
