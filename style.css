@@ -9,7 +9,7 @@ body {
 .intro {
 	padding: 5px 15px;
 	background-color: #111111;
-	height: 75vh;
+	height: 100vh;
 }
 .header {
 	margin-top: 60px;
@@ -50,7 +50,7 @@ body {
 }
 .intro__main {
 	max-width: 690px;
-	margin: 225px auto 0;
+	margin: 225px auto;
 }
 .title {
 	font-size: 44px;
