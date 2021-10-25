@@ -155,8 +155,15 @@ body {
 	}
 }
 @media (max-width: 910px){
+	.about{
+		padding: 90px 0;
+	}
+	.about__subtitle{
+		margin: 15px 0 20px 0;
+	}
 	.about__title{
-		margin-top: 10px;
+		margin-top: 30px;
+		padding-bottom: 5px;
 	}
 	.about-wrapper{
 		display: block;
@@ -187,7 +194,6 @@ body {
 	font-weight: 600;
 	text-transform: uppercase;
 	color: #ffffff;
-	padding-bottom: 30px;
 }
 .our-team__title:after{
 	content: '';
@@ -237,9 +243,21 @@ body {
 	font-weight: 400;
 	color: #aeaeae;
 }
+@media (max-width: 910px){
+	.our-team__title:after{
+		margin-top: 19px;
+	}
+	.our-team{
+		padding: 50px 0;
+	}
+	.our-team__about{
+		margin-top: 10px;
+	}
+}
 @media (max-width: 700px){
 	.our-team__container-people{
 		display: block;
+		margin: 15px 0 0 0;
 	}
 	.out-team__people{
 		margin: 0 auto;
