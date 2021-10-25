@@ -9,7 +9,7 @@ body {
 .intro {
 	padding: 5px 15px;
 	background-color: #111111;
-	height: 100vh;
+	min-height: 100vh;
 }
 .header {
 	margin-top: 60px;
@@ -155,6 +155,9 @@ body {
 	}
 }
 @media (max-width: 910px){
+	.intro__main{
+		margin: 50px 0 0 0;
+	}
 	.about{
 		padding: 90px 0;
 	}
