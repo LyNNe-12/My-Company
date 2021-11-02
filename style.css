@@ -350,3 +350,45 @@ body {
 	}
 }
 /*----------our-services--------*/
+/*----some-of-our-clients-------*/
+.some-of-clients {
+	padding: 20vh 0;
+	background: #000;
+	min-height: 75vh;
+}
+.some-of-clients__title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	font-size: 44px;
+	line-height: 39px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.some-of-clients__title:after{
+	content: '';
+	margin-top: 25px;
+	width: 99px;
+	height: 5px;
+	background-color: #fcac45;
+}
+.some-of-clients_s {
+	font-weight: 600;
+}
+.some-of-clients__row {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+@media (max-width: 975px){
+	.some-of-clients__row{
+		display: block;
+		text-align: center;
+	}
+	.some-of-clients__row img{
+		margin: 10px 10px;
+	}
+}
+/*----some-of-our-clients-------*/
